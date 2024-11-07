@@ -1,0 +1,46 @@
+<web-app>
+    <servlet>
+        <servlet-name>SignUpServlet</servlet-name>
+        <servlet-class>SignUpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUpServlet</servlet-name>
+        <url-pattern>/SignUpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SoftwareServlet</servlet-name>
+        <servlet-class>SoftwareServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SoftwareServlet</servlet-name>
+        <url-pattern>/SoftwareServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RequestServlet</servlet-name>
+        <servlet-class>RequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServlet</servlet-name>
+        <url-pattern>/RequestServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ApprovalServlet</servlet-name>
+        <servlet-class>ApprovalServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ApprovalServlet</servlet-name>
+        <url-pattern>/ApprovalServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
